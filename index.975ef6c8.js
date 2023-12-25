@@ -27182,14 +27182,14 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a UI/UX student .";
+ */ const description = "I'm a 3rd year BTech Student .";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
+    "Cloud Computing ",
     "User experience",
-    "Inclusive design",
+    "Web Developer ",
     "Focus group testing",
     "Mobile user interfaces",
     "Graphic design", 
@@ -28715,7 +28715,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/earth-3537401_1280.jpg":"2p5E6"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/earth-3537401_1280.jpg":"2p5E6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"2p5E6":[function(require,module,exports) {
@@ -28759,24 +28759,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "Emotion Detection using IBM Watson Natural Language Understanding",
+        description: "This repository contains a Python script that uses IBM Watson Natural Language Understanding to analyze the sentiment of a given text and determine whether it's positive, negative, or neutral.",
+        url: "https://github.com/AaronSMathew/Emotion-Detection"
     },
     {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        title: "TodoList React App",
+        description: "This is a simple TodoList app built using React. It allows you to create, read, update, and delete tasks in a todo list.",
+        url: "https://github.com/AaronSMathew/todo-list"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        title: "India Disaster Prevention Portal",
+        description: "This portal is a comprehensive platform designed to provide individuals with resources and information to effectively manage and mitigate disasters. It is an initiative aimed at protecting lives and livelihoods by empowering people with the knowledge and tools needed to respond to disasters.",
+        url: "https://github.com/AaronSMathew/IndiaSummer_Hackathon/tree/main"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "Machine Learning Projects",
+        description: "This repository contains two distinct machine learning projects that demonstrate practical applications of data analysis, modeling, and user interface development using Python libraries.",
+        url: "https://github.com/AaronSMathew/BHARAT-INTERN"
     }, 
 ];
 const Portfolio = ()=>{
