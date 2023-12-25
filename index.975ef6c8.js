@@ -27167,7 +27167,7 @@ var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
 var _resumeIconWebp = require("../images/resume-icon.webp"); // Add an icon for the resume link
 var _resumeIconWebpDefault = parcelHelpers.interopDefault(_resumeIconWebp);
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "purple and blueabstract background";
 const description = "I'm a 3rd year BTech Student.";
 const skillsList = [
     "Cloud Computing",
