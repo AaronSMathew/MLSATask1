@@ -27162,42 +27162,22 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */ var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
+// ... (previous imports)
+var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
+var _resumeIconWebp = require("../images/resume-icon.webp"); // Add an icon for the resume link
+var _resumeIconWebpDefault = parcelHelpers.interopDefault(_resumeIconWebp);
 const imageAltText = "purple and blue abstract background";
-/**
- * Sort description that expands on your title on the Home component.
- */ const description = "I'm a 3rd year BTech Student .";
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */ const skillsList = [
-    "Cloud Computing ",
+const description = "I'm a 3rd year BTech Student.";
+const skillsList = [
+    "Cloud Computing",
     "User experience",
-    "Web Developer ",
+    "Web Developer",
     "Focus group testing",
     "Data Science Enthusiast", 
 ];
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */ const detailOrQuote = "Hey there! \uD83D\uDC4B I'm  Aaron Samuel Mathew , a relentless explorer of the digital realm. \uD83C\uDF10 My playground? Web programming wizardry, cloud computing sorcery, and dancing with data through machine learning and data science projects. \uD83D\uDCBB✨ Join me in decoding the language of the web and unleashing the power of the cloud! \uD83D\uDE80 Let's turn ideas into reality, one code at a time! \uD83C\uDF1F #TechEnthusiast #CodeDreamCreate";
+const detailOrQuote = "Hey there! \uD83D\uDC4B I'm  Aaron Samuel Mathew , a relentless explorer of the digital realm. \uD83C\uDF10 My playground? Web programming wizardry, cloud computing sorcery, and dancing with data through machine learning and data science projects. \uD83D\uDCBB✨ Join me in decoding the language of the web and unleashing the power of the cloud! \uD83D\uDE80 Let's turn ideas into reality, one code at a time! \uD83C\uDF1F #TechEnthusiast #CodeDreamCreate";
+const resumeLink = "../images/resume.pdf"; // Replace with the actual GitHub link to your resume PDF
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27209,7 +27189,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 52,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27225,7 +27205,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 62,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27233,12 +27213,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27253,17 +27233,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 75,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 78,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27273,19 +27253,62 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        style: {
+                            margin: "2rem 0"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "If you'd like to download my resume, click ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: resumeLink,
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        children: "here"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 57
+                                    }, undefined),
+                                    "."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 57,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _resumeIconWebpDefault.default),
+                                alt: "Resume Icon",
+                                style: {
+                                    width: "50px",
+                                    marginTop: "10px"
+                                }
+                            }, void 0, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 58,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 51,
+        lineNumber: 25,
         columnNumber: 5
     }, undefined);
 };
@@ -27299,7 +27322,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../images/motion-background.jpg":"kzNvo","../images/resume-icon.webp":"fxGyC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -27336,7 +27359,10 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"fxGyC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume-icon.1d04fdab.webp" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28714,7 +28740,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/drd.jpg":"kAAIr"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/drd.jpg":"kAAIr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"kAAIr":[function(require,module,exports) {
