@@ -27177,7 +27177,7 @@ const skillsList = [
     "Data Science Enthusiast", 
 ];
 const detailOrQuote = "Hey there! \uD83D\uDC4B I'm  Aaron Samuel Mathew , a relentless explorer of the digital realm. \uD83C\uDF10 My playground? Web programming wizardry, cloud computing sorcery, and dancing with data through machine learning and data science projects. \uD83D\uDCBB✨ Join me in decoding the language of the web and unleashing the power of the cloud! \uD83D\uDE80 Let's turn ideas into reality, one code at a time! \uD83C\uDF1F #TechEnthusiast #CodeDreamCreate";
-const resumeLink = "../images/resume.pdf"; // Replace with the actual GitHub link to your resume PDF
+const resumeLink = "../src/Components/resume.pdf"; // Replace with the actual GitHub link to your resume PDF
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
